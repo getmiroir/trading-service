@@ -1,0 +1,7 @@
+#!/bin/bash
+SCRIPT_DIR=$(dirname $(realpath "$0"))
+cd "$SCRIPT_DIR/../"
+
+go fmt ./...
+go build -o /dev/null ./cmd/...
+go build -tags webkit2_41 -o /dev/null ./gui/

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="170"
+   height="46"
+   viewBox="0 0 200 72"
+   fill="none"
+   stroke="white"
+   stroke-width="4"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="miroir_logo.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.3755575"
+     inkscape:cx="75.52705"
+     inkscape:cy="37.205443"
+     inkscape:window-width="1488"
+     inkscape:window-height="781"
+     inkscape:window-x="277"
+     inkscape:window-y="138"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg13" />
+  <!-- m : V _ arch _ arch _ V, two arches sharing vertical stems -->
+  <!-- left stem -->
+  <path
+     d="M4 60 L4 36"
+     id="path1" />
+  <!-- first arch -->
+  <path
+     d="M4 36 A14 14 0 0 1 32 36"
+     id="path2" />
+  <!-- middle stem -->
+  <path
+     d="M32 36 L32 60"
+     id="path3" />
+  <path
+     d="M32 36 A14 14 0 0 1 60 36"
+     id="path4" />
+  <!-- right stem -->
+  <path
+     d="M60 36 L60 60"
+     id="path5" />
+  <!-- i : short vertical at x-height -->
+  <path
+     d="M70 36 L70 60"
+     id="path6" />
+  <!-- r : left stem + arch, with small clipped horizontal at top-right terminal -->
+  <path
+     d="M80 60 L80 36"
+     id="path7" />
+  <path
+     d="M80 36 A14 14 0 0 1 108 36"
+     id="path8" />
+  <!-- o : circle, slightly larger, sitting on baseline -->
+  <circle
+     cx="133"
+     cy="46"
+     r="17"
+     fill="none"
+     id="circle9" />
+  <!-- i -->
+  <path
+     d="M161 36 L161 60"
+     id="path10" />
+  <!-- r -->
+  <path
+     d="M171 60 L171 36"
+     id="path11" />
+  <path
+     d="M171 36 A14 14 0 0 1 199 36"
+     id="path12" />
+</svg>

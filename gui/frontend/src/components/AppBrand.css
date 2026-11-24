@@ -1,0 +1,17 @@
+.app-brand {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	line-height: 1;
+}
+
+.app-brand-logo {
+	width: 200px;
+	height: 54px;
+	object-fit: contain;
+}
+
+.app-brand--compact .app-brand-logo {
+	width: 170px;
+	height: 46px;
+}

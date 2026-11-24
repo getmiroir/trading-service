@@ -1,0 +1,13 @@
+settings.yaml
+gui/build/**
+!gui/build/appicon.png
+!gui/build/windows/
+gui/build/windows/**
+!gui/build/windows/wails.exe.manifest
+!gui/build/darwin/
+!gui/build/darwin/**
+.env*
+/copy-service
+wailsjs
+.DS_Store
+*tsbuildinfo

@@ -1,0 +1,189 @@
+.profile-btn {
+	position: fixed;
+	top: 1.85rem;
+	right: 1rem;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	border: 1px solid var(--border);
+	background: var(--surface);
+	color: var(--text-bright);
+	font-size: 0.95rem;
+	font-weight: 600;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition:
+		border-color 0.15s,
+		background 0.15s;
+	--wails-draggable: no-drag;
+}
+.profile-btn__gear {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.05rem;
+	line-height: 1;
+}
+.profile-btn:hover {
+	border-color: var(--accent);
+	background: var(--surface-hover);
+}
+
+.profile-login-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 2rem;
+}
+.profile-login-wrap p {
+	margin: 0;
+	color: var(--text-muted);
+	font-size: 0.9rem;
+}
+
+.login-busy {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.75rem;
+}
+.login-busy__status {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	color: var(--text-muted);
+	font-size: 0.9rem;
+}
+.login-manual {
+	margin: 0;
+	color: var(--text-dim);
+	font-size: 0.8rem;
+	text-align: center;
+}
+.login-manual__link {
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	color: var(--accent-light);
+	text-decoration: underline;
+	cursor: pointer;
+	--wails-draggable: no-drag;
+}
+.login-manual__link:hover {
+	color: var(--accent);
+}
+
+.profile-row,
+.profile-api-key {
+	display: flex;
+	flex-direction: column;
+	padding: 0.85rem 0.9rem;
+	background: rgba(255, 255, 255, 0.03);
+	border: 1px solid var(--hairline-white-08);
+	border-radius: 10px;
+}
+.profile-row {
+	gap: 0.15rem;
+}
+.profile-api-key {
+	gap: 0.35rem;
+	margin-top: 0.6rem;
+}
+
+.profile-row__label {
+	font-size: 0.75rem;
+	color: var(--text-dim);
+}
+.profile-row__value {
+	font-size: 0.9rem;
+	color: var(--text-bright);
+	font-weight: 500;
+	word-break: break-all;
+}
+
+.profile-api-key__label {
+	font-size: 0.75rem;
+	color: var(--text-dim);
+}
+
+.profile-api-key__name {
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: var(--text-bright);
+	word-break: break-all;
+}
+
+.profile-api-key__date {
+	font-size: 0.75rem;
+	color: var(--text-dim);
+}
+
+.profile-api-key__key-id {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+	margin-top: 0.35rem;
+}
+
+.profile-api-key__key-id-label {
+	font-size: 0.75rem;
+	font-weight: 400;
+	color: var(--text-dim);
+}
+
+.profile-api-key__key-id-value {
+	display: inline-block;
+	align-self: flex-start;
+	font-size: 0.78rem;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	color: var(--accent-light);
+	background: rgba(var(--primary-rgb), 0.12);
+	border: 1px solid rgba(var(--primary-rgb), 0.25);
+	border-radius: 5px;
+	padding: 0.15rem 0.5rem;
+	word-break: break-all;
+}
+
+.profile-actions {
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	margin-top: 1.4rem;
+}
+.profile-actions .modal__btn {
+	flex: none;
+	width: 100%;
+}
+
+.profile-service-actions__uninstall-blocked {
+	display: block;
+	width: 100%;
+	position: relative;
+}
+.profile-service-actions__uninstall-blocked:not(
+		.profile-service-actions__uninstall-blocked--suppress-tooltip
+	):hover::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 100%;
+	margin-bottom: 6px;
+	padding: 0.35rem 0.5rem;
+	font-size: 0.75rem;
+	font-weight: 400;
+	line-height: 1.35;
+	color: var(--text);
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	max-width: min(260px, 100vw);
+	text-align: center;
+	pointer-events: none;
+	z-index: 50;
+	white-space: normal;
+}

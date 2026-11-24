@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "miroir-gui",
+  "outputfilename": "miroir-gui",
+  "frontend:dir": "frontend",
+  "frontend:install": "npm ci",
+  "frontend:build": "npm run build",
+  "wailsjsdir": "frontend/dist",
+  "author": {
+    "name": "Miroir team"
+  },
+  "info": {
+    "companyName": "Anaxa SARL",
+    "productName": "Miroir Trading Service",
+    "productVersion": "2.1",
+    "copyright": "©2026 Anaxa Sàrl",
+    "protocols": [
+      {
+        "scheme": "miroir",
+        "description": "Miroir deep links",
+        "role": "Viewer"
+      }
+    ]
+  }
+}
